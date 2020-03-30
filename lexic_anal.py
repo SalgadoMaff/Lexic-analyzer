@@ -197,7 +197,7 @@ while( i <= len(stringona)-1):
                 if(j>len(stringona)):
                     break
             if(palavra=="begin"):
-                tokens.insert(identificar,"comeco")
+                tokens.insert(identificar,"começo")
             else:
                 tokens.insert(identificar,"id")
             palavras.insert(identificar,palavra)
@@ -220,7 +220,7 @@ while( i <= len(stringona)-1):
             if(palavra=="end"):
                 tokens.insert(identificar,"fim")
             elif(palavra=="else"):
-                tokens.insert(identificar,"senao")
+                tokens.insert(identificar,"senão")
             else:
                 tokens.insert(identificar,"id")
             palavras.insert(identificar,palavra)
